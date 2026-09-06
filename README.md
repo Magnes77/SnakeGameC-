@@ -1,19 +1,19 @@
-# 🐍 Snake Game – C++
+#  Snake Game – C++
 
 Classic console Snake game written in C++.
 
-## 🎮 Controls
+##  Controls
 - W – Up
 - S – Down
 - A – Left
 - D – Right
 - X – Exit
 
-## 🛠 Technologies
+##  Technologies
 - C++
 - Console
 
-## ▶️ How to run
+##  How to run
 ```bash
 g++ src/main.cpp -o snake
 snake
