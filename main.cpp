@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <conio.h>
 #include <windows.h>
@@ -37,13 +36,13 @@ void Setup() {
 void Draw() {
     system("cls");
 
-    // Gorna krawedz planszy
+    
     for (int i = 0; i < width + 2; i++) {
         cout << "#";
     }
     cout << endl;
 
-    // Rysowanie planszy
+
     for (int i = 0; i < height; i++) {
         for (int j = 0; j < width; j++) {
 
@@ -69,7 +68,7 @@ void Draw() {
         cout << endl;
     }
 
-    // Dolna krawedz planszy
+
     for (int i = 0; i < width + 2; i++) {
         cout << "#";
     }
@@ -130,12 +129,10 @@ void Logic() {
         break;
     }
 
-    // Sprawdzanie, czy waz nie wyszedl poza plansze
     if (x >= width || x < 0 || y >= height || y < 0) {
         gameOver = true;
     }
 
-    // Sprawdzanie, czy waz zjadl jedzenie
     if (x == foodX && y == foodY) {
         score += 10;
 
